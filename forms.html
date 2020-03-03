@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Creating a account</title>
+  </head>
+
+  <body>
+    <h1>New User</h1>
+
+  <form action="scripts/action.php" method="post">
+    <label for="full-name">Enter your first and last name: </label>
+    <input type="text" name="full-name" id="full-name" required>
+
+    <label for="email">Enter your email: </label>
+    <input type="text" name="email" id="email" required>
+  </form>
+
+  <br>
+
+  <form action="scripts/action.php" method="post">
+    <label for="Bio">In 100 words, give a quick bio: </label>
+    <textarea id="Bio" name="Bio" rows="5" cols="40">
+    </textarea>
+
+    <input type="submit" value="Submit">
+    </form>
+
+  </body>
+  </html>
