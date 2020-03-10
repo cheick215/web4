@@ -1,0 +1,44 @@
+header {
+  background-color: Green;
+  font-family: "Times New Roman", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Times New Roman", arial;
+}
+
+p {
+  font-family: "Times New Roman", arial;
+}
+
+main{
+ background-color: black;
+  font-family: sans-serif, arial;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 3em;
+  margin: 0;
+}
+
+section {
+  background-color: white;
+  }
+
+footer {
+  background-color: green ;
+  font-family: "Times New Roman", sans-serif;
+  text-align: left;
+}
