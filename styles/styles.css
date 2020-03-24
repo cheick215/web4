@@ -5,19 +5,25 @@ header {
 }
 
 h1 {
+  font-family: Georgia, arial;
   font-size: 2rem;
+  text-align: center;
 }
 
 h2 {
-  font-family: "Times New Roman", arial;
+  font-family: Georgia, sans-serif;
 }
 
 p {
   font-family: "Times New Roman", arial;
 }
 
+.boxtest {
+  border: 1px solid black;
+}
+
 main{
- background-color: black;
+ background-color: white;
   font-family: sans-serif, arial;
   text-align: center;
 }
@@ -38,7 +44,7 @@ section {
   }
 
 footer {
-  background-color: green ;
+  background-color: white ;
   font-family: "Times New Roman", sans-serif;
   text-align: left;
 }
