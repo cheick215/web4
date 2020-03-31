@@ -48,3 +48,17 @@ footer {
   font-family: "Times New Roman", sans-serif;
   text-align: left;
 }
+
+a[href] {
+  background-color: Green
+  color: red
+}
+
+a:visited {
+  color: red
+}
+
+p::selection {
+  background-color: black
+  color:green
+}
