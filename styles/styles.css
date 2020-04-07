@@ -18,10 +18,6 @@ h2 {
   display: inline-flex;
   font-size: 1.0em;
   padding: 13px;
-  padding-left: 50px;
-  padding: 10px;
-  padding-left: 90px;
-  color: black;
   font-size: 30px;
 }
 
@@ -61,8 +57,8 @@ footer {
 }
 
 a[href] {
-  background-color: Green;
-  color: red;
+  background-color: white;
+  color: green;
 }
 
 a:visited {
