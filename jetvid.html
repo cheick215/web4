@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Video Page</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "SportsTeam",
+    "name": "New York Jets",
+    "member": {
+      "@type": "OrganizationRole",
+      "member": {
+        "@type": "Person",
+        "name": "Sam Darnold"
+      },
+      "startDate": "2018",
+      "endDate": "2019",
+      "roleName": "Quarterback"
+    }
+  }
+  </script>
   </head>
   <body>
 
@@ -13,24 +30,6 @@
         <img src="images/small.jpg" alt="NYJ">
         <figcaption>Team Logo</figcaption>
       </figure>
-
-      <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "SportsTeam",
-        "name": "New York Jets",
-        "member": {
-          "@type": "OrganizationRole",
-          "member": {
-            "@type": "Person",
-            "name": "Sam Darnold"
-          },
-          "startDate": "2018",
-          "endDate": "2019",
-          "roleName": "Quarterback"
-        }
-      }
-      </script>
 
       <!-- A <div> element with a context menu -->
       <nav>
